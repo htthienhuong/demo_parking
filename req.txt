@@ -8,7 +8,7 @@ Flask-SocketIO
 importlib-metadata==4.12.0
 itsdangerous==2.1.2
 Jinja2==3.1.2
-MarkupSafe==2.1.1
+MarkupSafe==2.1.2
 python-engineio
 python-socketio
 six==1.11.0
