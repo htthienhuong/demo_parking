@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kha Kim Thuy</title>
+    </head>
+    <body>
+        <h1>Please input parameters (0 to 100): </h1>
+        <form action={{domain}} method="POST">
+                <!-- <form action="http://192.168.1.5:9099/" method="POST"> -->
+                <table>
+                <tr>
+                    <td align="right">Weight</td>
+                    <td align="left"><input type="text" name="weights" value="best_3.pt"/></td>
+                </tr>
+                <tr>
+                    <td align="right">Source</td>
+                    <td align="left"><input type="text" name="source" value="D:\NCKH\yolov5\yolov5\vids\cro_me.mp4"/></td>
+                </tr>
+                <tr>
+                    <td align="right">Video stride</td>
+                    <td align="left"><input type="number" name="vid_stride" value="5"/></td>
+                </tr>
+                <tr>
+                    <td align="right">Estimate</td>
+                    <td align="left"><input type="text" name="estimate" value="True"/></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td align="right"><input type="submit" value="Estimate"/></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

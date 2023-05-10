@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.1/socket.io.min.js"></script>
+    <script src="static/app.js"></script>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+      .display{
+        display: flex;
+        justify-content: space-between;
+      }
+      .monitor1 {
+        flex:1;
+      }
+      .monitor2 {
+        flex:1;
+      }
+    </style>
+</head>
+<body>
+  <!-- <script>
+    for (let i = 0; i < )
+
+  </script> -->
+  <h1>From ip: </h1><h1 id="ip">{{ip}}</h1>
+  <div class="display">
+      <div class="monitor1">
+        <h3>Monitor 1</h3>
+        <div>
+          <h3 id="log1"></h3>
+          <img id="image1">
+        </div>
+        <button class='btn btn-danger' id="m1" >Terminate</button>
+      </div>
+      <div class="monitor2">
+        <h3>Monitor 2</h3>
+        <div>
+          <h3 id="log2"></h3>
+          <img id="image2">
+        </div>
+        <button class='btn btn-danger' id="m2" >Terminate</button>
+      </div>
+  </div>
+</body>
+</html>
