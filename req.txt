@@ -11,6 +11,6 @@ Jinja2==3.1.2
 MarkupSafe==2.1.1
 python-engineio
 python-socketio
-six==1.11.0
+six==1.16.0
 Werkzeug==2.2.1
 zipp==3.8.1
